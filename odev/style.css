@@ -1,0 +1,342 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+header {
+
+    background: linear-gradient(900deg, #03097d, #1239e8);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    letter-spacing: 1.5px;
+    position: relative;
+
+}
+
+nav {
+    background-color: #1239e8;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 500px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a {
+    margin-left: 75px;
+    line-height: 1;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
+    transition: color 1s ease;
+    letter-spacing: 1.5px;
+}
+
+a:hover {
+    color: #03097d;
+}
+
+#hakkimda {
+    background-color: #000080;
+    color: white;
+    padding: 90px;
+    margin-top: 0px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    flex-direction: row;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
+    letter-spacing: 1.5px;
+    transition: padding 6s ease;
+   
+  
+}
+#hakkimda:hover{
+padding: 160px;
+
+}
+
+#hakkimda img {
+    float: right;
+    filter: grayscale(100%) invert(100%);
+    max-width: 100%;
+    height: 400px;
+
+}
+
+#hakkimda h1 {
+    text-align: center;
+    top: 0;
+    margin-top: 100px;
+    position: absolute;
+    font-size: 55px;
+    transition: color 3s linear;
+
+    
+}
+
+#hakkimda p {
+    font-size: 23px;
+    margin-top: 50px;
+    transition: color 3s linear;
+}
+
+#parag {
+    text-align: center;
+    margin-top: 170px;
+    top: 0;
+    position: absolute;
+    font-size: 28px;
+    transition: color 3s linear;
+}
+.buttoncv{
+    position: absolute;
+    margin-top: 350px;
+    width: 60px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 25px;
+    border-color: #03097d;
+    border: 1000px;
+    background-color: #1239e8;
+    color: #ffffff;
+}
+.buttoncv:hover{
+    background-color: black;
+}
+.deneyim{
+
+    border-radius: 20px;
+    padding: 35px;
+    border: 3px solid #00115c;
+    width: 700px;
+    margin: 30px;
+    background: linear-gradient(to right, #000080, #00115c); 
+    font-size: 19px;
+    overflow: hidden;
+    transition: background 9s ease-in,padding 3s ease ;
+    
+}
+.deneyim:hover{
+    background: linear-gradient(to left, #000080, #00115c);
+    padding: 50px;
+}
+.deneyim h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.deneyim img {
+    max-width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.deneyim p {
+    font-size: 19px;
+    text-align: justify;
+    margin-left: 230px; 
+}
+.ser{
+    border-radius: 20px;
+    padding: 30px;
+    border: 3px solid #00115c;
+    width: 550px;
+    margin: 30px;
+    background: linear-gradient(to left, #000080, #00115c); 
+    overflow: hidden;
+    float: right;
+    transition: background 9s ease-in,padding 4s ease ;
+
+}
+.ser:hover{
+    background: linear-gradient(to right, #000080, #00115c);
+    padding: 50px;
+}
+.ser p{
+    font-size: 15px;
+}
+.ser h1{
+    font-size: 19px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+}
+.buttontp{
+    position: absolute;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 25px;
+
+    background-color: #1239e8;
+    color: #ffffff;
+    margin-left: 220px;
+}
+.buttontp:hover{
+    background-color: #00115c;
+}
+#divler{
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid #00115c;
+    margin: 30px;
+    background: linear-gradient(to right, #000080, #00115c); 
+    font-size: 19px;
+
+
+}
+#buttondiv{
+    font-size: 25px;
+    width: 70px;
+    height: 40px;
+    background-color: #1239e8;
+    color: #ffffff;
+    border-radius: 20px;
+}
+#buttondiv:hover{
+    background-color: black;
+}
+.buttongo{
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
+    background-color: #1239e8;
+    color: #ffffff;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.buttongo:hover{
+   background-color: black; 
+}
+.ileti{
+    border-radius: 20px;
+    padding: 50px;
+    width: 800px;
+    border: 3px solid #1239e8;
+    margin: 30px;
+    background-color: #000e53;
+    font-size: 19px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    letter-spacing: 40px;
+}
+.messagekutu{
+ box-shadow:rgba(0, 0, 0, 0.5);
+ padding: 20px;
+ height: 100px;
+ width: 750px;
+    resize: none;
+    border: 1px solid #1239e8; 
+    border-radius: 5px;
+    margin-top: 20px;
+    margin: 20px auto;
+    background-color: #000227;
+   
+}
+.textk{
+    background-color: #000227;
+    border: 1px solid #1239e8; 
+    border-radius: 5px;
+    box-shadow:rgba(0, 0, 0, 0.5);
+    width: 230px;
+    height: 40px;
+}
+.submit{
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
+    background-color: #1239e8;
+    color: #ffffff;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.submit:hover{
+    background-color: #00115c;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .social-icon {
+    text-align: center;
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); 
+  }
+  
+  .social-icon .icon {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50%; 
+    overflow: hidden; 
+    box-shadow: rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .social-icon .icon img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon .icon:hover img {
+    transform: scale(1.1); 
+  }
+  footer {
+    background-color: rgb(63, 63, 63);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 99%;
+    align-items: center;
+
+}
+.light{
+    background-color: #1239e8;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-right: 440px;
+
+    position: relative;
+
+
+
+}
+.light img{
+    max-width: 30px;
+}
+

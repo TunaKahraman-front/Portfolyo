@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header><b>Tuna Kahraman</b><br>
+Front-End Developer
+</header>
+<body style="background-color: #d9d9d9;"> 
+    <div class="container">
+   <nav><a href="">İletişim</a> <a href=""> Hakkımda</a><a href=""> Projelerim</a></nav>
+   <button onclick="lightac()" class="light">
+    <img src="resim6.png" alt="light"/>  
+ </button>
+</div>
+    <main>
+        <section>
+            <div id="hakkimda">
+                <h1>HAKKIMDA</h1>
+                <h3 id="parag">Merhaba ben Tuna,Front-End Developer'im</h3>
+                <p>Yazılım geliştirme alanında kendini geliştiren, çözüm odaklı ve ekip çalışmasına uyumlu biriyim. Lisede aldığım eğitim dahilinde üniversite seçimi yaptım. Yazılımla lise de tanışmam bir 
+                    çok alanda farklı yazılım dillerini 
+                    deneyimledim bu durum benim inovatif 
+                    çözümler üretebilmeme yaradı. 
+                    Türkiye Petrolleri Anonim Ortaklığı’nda staj yaparak teknik beceriler kazandım. Eğitimler ve sertifikalar aracılığıyla iş sağlığı, güvenliği ve siber güvenlik konularında temel bilgiler edindim. HTML,CSS ve JS kulanarak aktif olarak projeler  üretmekteyim.</p>
+                   
+                <img src="resim1.png">
+                <button type="button" class="buttoncv">CV</button>
+            </div>
+        </section>
+        <section class="container">
+            <div class="deneyim">
+                <h1>Tecrübe</h1>
+                <br>
+                <img src="resim2.png">
+                <p>
+                    Türkiye Petrolleri Anonim Ortaklığı Bilgi İşlem Departmanı’nda staj yaptım ve bilgi işlem süreçlerine destek sağladım. 
+                    Sistemsel bug’ları tespit ederek çözüm önerileri geliştirdim. 
+                    Sunucu ve kamera sistemlerinin kurulum, bakım ve onarım 
+                    çalışmalarını yürüttüm.
+                    Ekip çalışmasına uyum sağlayarak bilgi işlem operasyonlarının
+                     verimli yürütülmesine katkıda bulundum.
+                </p>
+                <button type="button" class="buttontp">Ulaşın</button>
+
+            </div>
+            <aside>
+                <div  class="ser">
+                    <h1 style="text-align: center;">Sertifikalar</h1>
+                    <ul>
+                        <li><h1>İŞ YERİ AÇMA BELGESİ (USTALIK BELGESİ)</h1>
+                        <p>Bu belge usalık belgesine tekabül eden belgedir. Bu belge lisede aldığım yazılım eğitimi sonucu ve girdiğim yetenk sınavı dahilinde verilen belgedir</p>
+                        </li>
+                        <hr>
+                        <li><h1>İŞ SAĞLIĞI VE GÜVENLİĞİ</h1>
+                            <p>Lise eğitimi sırasında İş Sağlığı ve Güvenliği sertifikası alarak, iş güvenliği, risk değerlendirmesi ve güvenli çalışma prensipleri üzerine temel bilgiler edindim.</p>
+                            </li>
+                            <hr>
+                            <li><h1>AKBANK GENÇLİK AKADEMİSİ-SİBER GÜVENLİK</h1>
+                                <p>Akbank Gençlik Akademisi ve Microfon tarafından düzenlenen siber güvenlik 101 eğtimi sonucu bu sertifikayı almaya hak kazandım.</p>
+                                </li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+        <section>
+            <div id="kapa">
+                <h1 style="text-align: center;color: #00115c;font-size: 40px;">Projelerim</h1>
+                <div id="divler">
+                    <h1>Halısaha</h1>
+                    <p>Gririlen Oyuncuları rastgele kadrar</p>
+                    <button type="button" id="buttondiv">GİT</button>
+                </div>
+                <div id="divler">
+                    <h1>Portfolyo sitesi</h1>
+                    <p>Kişisel portfolyo sitesidir</p>
+                    <button type="button" id="buttondiv">GİT</button>
+                </div>
+            </div>
+            <button type="button" class="buttongo" onclick="ackapa()">Göster/Gizle</button>
+        </section>
+        <section>
+            <h1 style="text-align: center;color: #00115c;font-size: 40px;">İLETİŞİM</h1>
+            <address>
+            <div class="ileti">
+                <form >
+                    <input type="text" class="textk" placeholder="Adınız*" />
+                    <input type="email" class="textk" name="email" id="email" placeholder="Email*" >           
+                    <input type="text" class="textk" placeholder="Konu*"><br>
+                    <textarea id="message"  class="messagekutu" placeholder="Mesajınızı buraya yazın..."></textarea>
+                    <br>
+                    <input type="button" class="submit" action="mailto:tuna.kahraman3@hotmail.com" method="post" enctype="text/plain" onclick="em()" value="Gönder"/>
+                    <p id="hata" style="color: red; letter-spacing: 1px; "></p>
+                  </form>
+            </div>
+        </address>
+        </section>
+        <div class="social-icons">
+            <h1 style="color: #00115c; margin-top: 30px;" >Sosyal Medyadan Ulaşın:</h1>
+            
+            <div class="social-icon">
+              <a href="#" class="icon"><figure>
+                <img src="resim3.png" alt="git" /></figure>
+              </a>
+
+            </div>
+            <div class="social-icon">
+              <a href="#" class="icon"><figure>
+                <img src="resim4.png" alt="Twitter" /></figure>
+              </a>
+
+            </div>
+            <div class="social-icon">
+              <a href="#" class="icon"><figure>
+                <img src="resim5.png" alt="youtube" /></figure>
+              </a>
+
+            </div>
+          </div>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Tüm Hakları Saklıdır</p>
+        <time datetime="2024-02-03"></time>
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>
