@@ -1,0 +1,2 @@
+# Portfolyo
+Şahsi Portfolyo sitesidir
